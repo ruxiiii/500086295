@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Common rules from q1 and q2
+q1/node_modules
+q1/dist
+q1/dist-ssr
+q1/*.local
+
+q2/node_modules
+q2/dist
+q2/dist-ssr
+q2/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
