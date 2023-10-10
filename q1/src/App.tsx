@@ -1,14 +1,14 @@
-//import { useState, useEffect } from "react";
 import "./App.css";
-// import { RestApiService } from "./core/services/https/restApiService";
-//import axios from "axios";
-import NumberList from "./numbersList";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NumbersPage from "./numbersPage";
 
 function App() {
   return (
-    <div className="App">
-      <NumberList />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/numbers" element={<NumbersPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
